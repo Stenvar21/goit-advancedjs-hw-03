@@ -5,7 +5,7 @@ import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 import { fetchPhotosByQuery } from "./js/pixabay-api.js";
-import { createGalleryCardTemplate } from "./js/render-function.js";
+import { createGalleryCardTemplate } from "./js/render-functions.js";
 
 const refs = {
   form: document.querySelector(".js-search-form"),
